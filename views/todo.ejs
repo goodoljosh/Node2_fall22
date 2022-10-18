@@ -9,6 +9,9 @@
   <!---link href="https://use.fontawesome.com/release/v5.8.2/css/all.css" rel="stylesheet"/> -->
 </head>
 <body>
+  <div class="transcript">
+    <h2><%= comicData.transcript %></h2>
+  </div>
   <div class="todo-container">
     <h2>
       <%= comicData.safe_title %>
@@ -16,9 +19,6 @@
     <h2>
       Month and Year: <%= comicData.month %>/<%= comicData.year %>
     </h2>
-    <img src="<%= comicData.img %>" alt="<%= comicData.alt %>" width="500" height="500"/>
-    <div class="transcript">
-      <h3><%= comicData.transcript %></h3>
-    </div>
+    <img src="<%= comicData.img %>" alt="<%= comicData.alt %>" width="600" height="500"/>
   </div>
   </body>

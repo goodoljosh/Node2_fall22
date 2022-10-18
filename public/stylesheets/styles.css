@@ -26,6 +26,7 @@
  }
 
  .transcript{
-   float:left;
-   color: black;
+    float:left;
+    position:left;
+   color: darkorchid;
  }
